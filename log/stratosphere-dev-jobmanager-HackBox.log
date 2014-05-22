@@ -1,0 +1,45 @@
+13:27:26,539 INFO  eu.stratosphere.nephele.jobmanager.JobManager                 - Starting Stratosphere JobManager (Version: 0.4-hadoop2, Rev:8dc91d9)
+13:27:26,905 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server Responder: starting
+13:27:26,905 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server listener on 6123: starting
+13:27:26,906 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 0 on 6123: starting
+13:27:26,906 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 1 on 6123: starting
+13:27:26,906 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 2 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 3 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 6 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 5 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 4 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 7 on 6123: starting
+13:27:26,907 INFO  eu.stratosphere.nephele.jobmanager.JobManager                 - Starting job manager in LOCAL mode
+13:27:26,926 INFO  eu.stratosphere.nephele.instance.local.LocalInstanceManager   - Default instance type is default
+13:27:26,940 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Reading location of job manager from configuration
+13:27:26,940 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Job manager address: localhost/127.0.0.1:6123
+13:27:27,006 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Determined /127.0.0.1 as the TaskTracker's own IP address
+13:27:27,007 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Announcing connection information localhost to job manager
+13:27:27,019 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server Responder: starting
+13:27:27,019 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server listener on 6122: starting
+13:27:27,029 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 0 on 6122: starting
+13:27:27,072 INFO  eu.stratosphere.nephele.taskmanager.bufferprovider.GlobalBufferPool  - Initialized global buffer pool with 2048 buffers with a size 32768 bytes each
+13:27:27,085 INFO  eu.stratosphere.nephele.taskmanager.bytebuffered.ByteBufferedChannelManager  - Initialized byte buffered channel manager with sender-side spilling disabled and spilled buffer merging enabled
+13:27:27,086 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Initializing memory manager with 420 megabytes of memory
+13:27:27,295 INFO  eu.stratosphere.nephele.jobmanager.JobManager                 - Trying to load eu.stratosphere.nephele.jobmanager.scheduler.local.LocalScheduler as scheduler
+13:27:27,312 INFO  eu.stratosphere.nephele.jobmanager.web.WebInfoServer          - Setting up web info server, using web-root directory '/home/dev/stratosphere/stratosphere/bin/../conf/.././resources/web-docs-infoserver'.
+13:27:27,312 INFO  eu.stratosphere.nephele.jobmanager.web.WebInfoServer          - Web info server will display information about nephele job-manager on localhost, port 8081.
+13:27:27,440 INFO  eu.stratosphere.nephele.jobmanager.web.WebInfoServer          - Starting web info server for JobManager on port 8081
+13:27:27,441 INFO  org.eclipse.jetty.util.log                                    - jetty-8.0.0.M1
+13:27:27,812 INFO  org.eclipse.jetty.util.log                                    - Started SelectChannelConnector@0.0.0.0:8081
+19:41:44,126 INFO  eu.stratosphere.nephele.taskmanager.TaskManager               - Shutting down TaskManager
+19:41:44,331 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping server on 6122
+19:41:44,332 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 0 on 6122: exiting
+19:41:44,332 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping IPC Server listener on 6122
+19:41:44,332 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping IPC Server Responder
+19:41:44,448 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping server on 6123
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 1 on 6123: exiting
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping IPC Server listener on 6123
+19:41:44,450 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 6 on 6123: exiting
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 2 on 6123: exiting
+19:41:44,450 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 4 on 6123: exiting
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 5 on 6123: exiting
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 3 on 6123: exiting
+19:41:44,449 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 0 on 6123: exiting
+19:41:44,450 INFO  eu.stratosphere.nephele.ipc.Server                            - Stopping IPC Server Responder
+19:41:44,450 INFO  eu.stratosphere.nephele.ipc.Server                            - IPC Server handler 7 on 6123: exiting
